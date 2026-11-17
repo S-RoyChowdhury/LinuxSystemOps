@@ -7,7 +7,21 @@ A collection of scripts, configuration files, and notes for managing Linux Ubunt
 - **Configurations:** Custom environment settings (such as Tilix, terminal aliases, and shell setups).
 - **Notes & Guides:** Documentation on networking tools (like Nmap and Sherlock) and system performance monitoring (like `htop`, `btop`, and `Cmatrix`).
 
-- ## 📜 Script Documentation: `System_Update.sh`
+-
+    ## 📜 Script Documentation: `System_Basics.sh`
+
+This script demonstrates essential Linux directory navigation and file listing commands.
+
+### Commands Covered
+
+- **`pwd`**: Prints the full path of the current working directory(or folder).
+- **`HOME`**: Displays the path to personal home directory.
+- **`ls /`**: Lists all files and folders in the root directory.
+- **`ls` & `dir`**: Display the contents of the current directory using different formatting.
+- **`cd ..`**: Moves up one level in the directory hierarchy(or getting out from the current directory). For example, ***home directory -> user directory***, ***user directory -> root directory***
+- 
+-
+    ## 📜 Script Documentation: `System_Update.sh`
 
 This script automates routine system maintenance on Ubuntu.
 
